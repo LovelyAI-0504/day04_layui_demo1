@@ -157,7 +157,7 @@ public class PostInfoController {
         return "main";
     }
 
-    //去到主页面
+    //根据ID来增加点击量和查看详细图片
     @RequestMapping(value ="post/showImg")
     @ResponseBody
     public Map showImg(@RequestParam(value = "id") Integer id){
